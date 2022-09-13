@@ -7,9 +7,9 @@ const audio={
         volume: 0.1
     }),
     initializeBattle:new Howl({
-        src:'./audio/battleAudio.mp3',
+        src:'./audio/Fight.ogg',
         html5: true,
-        volume: 0.05
+        volume: 0.3
     }),
     tackle:new Howl({
         src:'./audio/Tackle.mp3',
@@ -36,9 +36,9 @@ const audio={
         
     }),
     victory:new Howl({
-        src:'./audio/victory2.mp3',
+        src:'./audio/Victory.mp3',
         html5: true,
-        volume: 0.5
+        volume: 0.3
         
     }),
     loss:new Howl({
